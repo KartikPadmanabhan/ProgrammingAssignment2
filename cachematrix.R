@@ -19,7 +19,7 @@ makeCacheMatrix <- function(x = matrix()) {
   #Getter function for getting the value of matrix
   getinverse <- function() inv
   
-  
+  #Final cached list storing all our getters and setters
   list(set = set, get = get,
        setinverse = setinverse,
        getinverse = getinverse)
