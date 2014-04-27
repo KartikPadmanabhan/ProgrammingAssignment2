@@ -36,15 +36,15 @@ In order to complete this assignment, you must do the following:
 SAMPLE TESTCASE FOR THE PROGRAM:
 --------------------------------
 
-> source('~/Desktop/github_repo/ProgrammingAssignment2/cachematrix.R')
-> x <- makeCacheMatrix(matrix(c(1, 4, 9, 3, 7, 2, 8, 4, 1), ncol=3))
+> source('~/Desktop/github_repo/ProgrammingAssignment2/cachematrix.R') </BR>
+> x <- makeCacheMatrix(matrix(c(1, 4, 9, 3, 7, 2, 8, 4, 1), ncol=3))   </BR>
 > x$get()
      [,1] [,2] [,3]
 [1,]    1    3    8
 [2,]    4    7    4
 [3,]    9    2    1
-> source('~/Desktop/github_repo/ProgrammingAssignment2/cachematrix.R')
-> x <- makeCacheMatrix(matrix(c(1, 4, 9, 3, 7, 2, 8, 4, 1), ncol=3))
+> source('~/Desktop/github_repo/ProgrammingAssignment2/cachematrix.R') </BR>
+> x <- makeCacheMatrix(matrix(c(1, 4, 9, 3, 7, 2, 8, 4, 1), ncol=3))  </BR>
 > x$get()
      [,1] [,2] [,3]
 [1,]    1    3    8
