@@ -32,27 +32,3 @@ In order to complete this assignment, you must do the following:
     git branch to your GitHub account.
 4.  Submit to Coursera the URL to your GitHub repository that contains
     the completed R code for the assignment.
-
-SAMPLE TESTCASE FOR THE PROGRAM:
---------------------------------
-
-> source('~/Desktop/github_repo/ProgrammingAssignment2/cachematrix.R') </BR>
-> x <- makeCacheMatrix(matrix(c(1, 4, 9, 3, 7, 2, 8, 4, 1), ncol=3))   </BR>
-> x$get()
-     [,1] [,2] [,3]
-[1,]    1    3    8
-[2,]    4    7    4
-[3,]    9    2    1
-> source('~/Desktop/github_repo/ProgrammingAssignment2/cachematrix.R') </BR>
-> x <- makeCacheMatrix(matrix(c(1, 4, 9, 3, 7, 2, 8, 4, 1), ncol=3))  </BR>
-> x$get()
-     [,1] [,2] [,3]
-[1,]    1    3    8
-[2,]    4    7    4
-[3,]    9    2    1
-> inverse = cacheSolve(x)
-> inverse
-             [,1]        [,2]        [,3]
-[1,]  0.002898551 -0.03768116  0.12753623
-[2,] -0.092753623  0.20579710 -0.08115942
-[3,]  0.159420290 -0.07246377  0.01449275
