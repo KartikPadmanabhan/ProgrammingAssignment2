@@ -43,15 +43,7 @@ cacheSolve <- function(x, ...) {
   
   #if inverse doesn't exists get the actual matrix to compute inverse
   data <- x$get()
-  
-  #check for singularity...that is if matrix cannot be inversed determitent is 0
-  #NOTE that this step isn't really needed here as we are assuming that that matrix 
-  #PROVIDED TO US IS ALWAYS INVERTIBLE. 
-  #But this condition is a good check to ensure we never go wrong
-  if(det(data)<-0){
-    message("matrix is singular, and cannot be inversed!")
-  }
-  
+   
   #calculates the inverse using solve()
   m <- solve(data, ...)
   
